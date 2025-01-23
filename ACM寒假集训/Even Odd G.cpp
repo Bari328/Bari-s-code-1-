@@ -1,3 +1,4 @@
+/*本体思路：以循环语句为主题进行n次的奇数偶数选择*/
 #include<iostream>
 #include <string.h>
 using namespace std;
@@ -16,3 +17,4 @@ int main()
 	}
 	return 0;
 }
+//num【】为字符数组需用-’0‘将其转化为数字从而进行整除运算。
