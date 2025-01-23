@@ -1,3 +1,5 @@
+/*本题思路：运用两层嵌套循环，第一层记录投给k的票数
+	第二层记录总天数，最后比较并输出结果。
 #include<iostream>
 #include <string.h>
 using namespace std;
@@ -25,3 +27,5 @@ int main()
 		cout<<"NO";
 	return 0;
 }
+
+//本题总结：整数除法向下取整，故需要考虑奇偶不同的情况
