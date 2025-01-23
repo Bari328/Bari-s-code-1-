@@ -1,3 +1,7 @@
+/*本题思路：创建与7个字母对应的数组，再通过两次循环读取字符串s的内容并记录
+	最后相加得出总和。*/
+
+
 #include<iostream>
 #include <string.h>
 using namespace std;
@@ -41,3 +45,6 @@ int main()
 	}
 	return 0;
 }
+
+
+//本题总结：无
