@@ -1,3 +1,4 @@
+//解题思路：通过暴力的if语句进行筛选，共八种YES情况。
 #include<iostream>
 using namespace std;
 int main()
@@ -21,3 +22,4 @@ int main()
 	}	
 	return 0;
 }
+//本题总结：将str字符串中的字符串都变成大写或变成小写，再做比较。可用mytoupper和mytolower。
