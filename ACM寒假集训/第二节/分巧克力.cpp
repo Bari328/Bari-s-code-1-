@@ -1,3 +1,5 @@
+思路：因为随着mid越大，块数也越多，符合单调性，所以使用二分答案；
+通过二分来查找符合条件的答案
 #include<iostream>
 #include<algorithm>
 using namespace std;
@@ -29,3 +31,4 @@ int main()
 		cout <<l;
 	return 0;
 }
+总结：尽量向右找时，要注意l+r+1
