@@ -1,3 +1,5 @@
+思路：c已知，假定A，B都属于数组，那么假定B为数组中的某个数，
+利用二分查找来查询符合条件的A。通过cnt记录对数从而实现本题目标。
 #include<iostream>
 #include<algorithm>
 using namespace std;
@@ -40,3 +42,6 @@ int main()
 	cout << cnt;
 	return 0;
  } 
+总结：要灵活应用二分查找，注意要往右取还是要往左取
+往左取：r=mid,n[mid]>=k;
+往右取：l=mid,n[mid]<=k;
