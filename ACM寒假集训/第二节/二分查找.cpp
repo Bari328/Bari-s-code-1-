@@ -1,3 +1,4 @@
+/*思路利用二分查找查寻之前是否输入过m。*/
 #include<iostream>
 using namespace std;
 int main()
@@ -23,10 +24,11 @@ int main()
 			else if(a[mid]==x[i]) 
 			{
 				ans = 1;break;
-				}	
+			}	
 		}
 		if(ans==1)	cout << "Yes"<<endl;
 		else if(ans==0) cout << "No"<<endl;
 	}
 	return 0;
  }
+//总结要记住二分查找模板并熟练使用，记住l<r的
