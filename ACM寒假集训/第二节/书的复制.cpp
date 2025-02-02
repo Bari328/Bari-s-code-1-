@@ -1,3 +1,5 @@
+本题思路：经过观察发现本题从答案出发思考更为简单，且答案在一个单调区间内，
+		故选择用二分答案的方法解题。
 #include<bits/stdc++.h>
 #include<iostream>
 using namespace std;
@@ -59,3 +61,8 @@ int main()
 	cout<<st[i]<<' '<<en[i]<<endl; 
 	return 0;
 }
+本题反思；if(a[i]>mid)
+					return false;
+		单个数据对check函数的影响
+		出错数据：9 2
+		1 2 3 4 56 78 98 12 10000
