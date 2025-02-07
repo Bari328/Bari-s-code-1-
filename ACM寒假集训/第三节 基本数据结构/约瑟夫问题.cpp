@@ -1,3 +1,4 @@
+本题思路：化圆为行；通过队列模拟圆环的循环性
 #include<iostream>
 #include<queue>
 using namespace std;
@@ -28,3 +29,4 @@ int main()
 	for(int i=0;i<n;i++)
 		cout<<a[i]<<' ';
 }
+本题反思：q.push(q.front());通过这个语句进行圆环的模拟
