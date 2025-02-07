@@ -1,3 +1,4 @@
+本题思路：套用模板即可
 #include<bits/stdc++.h>
 using namespace std;
 const int N=5e6;
@@ -34,3 +35,4 @@ int main(){
 	}
 	return 0;
 } 
+本题反思：为了降低读写所用时间可用1.快读,2.禁用缓冲区ios::sync_with_stdio(0);cin_tie(0)3.用scanf和printf
