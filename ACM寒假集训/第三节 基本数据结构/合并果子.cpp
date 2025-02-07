@@ -1,3 +1,4 @@
+本题思路：数量少的果子先搬可极大的节省体力，遂想到用小根队列来进行代码书写
 #include<bits/stdc++.h>
 #include<queue>
 using namespace std;
@@ -24,3 +25,4 @@ int main()
 	cout<<sum;
 	return 0;
 }
+反思：无
